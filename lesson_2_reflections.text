@@ -2,3 +2,5 @@ What happens when you initailize a repository? why do you need to di it?
 meta files that contain description of the repository are created.
 How is the staging area different from the working directory and the repository? what value do you think it offers?
 Its a temprory area that holds the data and collects the data that the user wants to commit from the working directory and to the repository. This is to help make more logical and compact commits. 
+How can you use the staging area to make sure you have one commit per logical change?
+the user can choose to add files that are within the same logical change to the staging area, and choose to commit those in one commit. 
