@@ -18,4 +18,8 @@ How do the diagrams help you visualize the branch structure?
 
 It shows a simplified version of different branches, and how they are connected. giving us a clearer look into log of each branch and the reachability status of each commit.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+the two final commits from the two branches are merged together into one commit. and this final commit has refrence to its two parents, making it possible to reach previous commits in the two branches. we represent it as two linear branches with each commit having a refrence to one parent, and when the two branches merge, the final merged commit will be represented by a node that has two branches (parent commits) coming out of it.
+
 end
