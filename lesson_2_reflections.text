@@ -22,4 +22,8 @@ What is the result of merging two branches together? Why do we represent it in t
 
 the two final commits from the two branches are merged together into one commit. and this final commit has refrence to its two parents, making it possible to reach previous commits in the two branches. we represent it as two linear branches with each commit having a refrence to one parent, and when the two branches merge, the final merged commit will be represented by a node that has two branches (parent commits) coming out of it.
 
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+pros: Its less time consuming, and easier to deal with
+cons: There could be a conflict that git deals with in an unoptimal way. leading to problems in the future. as opposed to asking the programmers for the best way they find suitable to deal with the merge.
 end
