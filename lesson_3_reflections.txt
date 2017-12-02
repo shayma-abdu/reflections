@@ -13,3 +13,7 @@ clones are copies of either Github repositories made locally or copies of other 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 This will help in the cases where there are different commits done locally and on the remote. in this case the copy could be updated with the last commit using fetch and using log or diff could show the differences between the commits done locally and remotely. It could also be a good idea to have all recent changes made remotely as a copy locally without merging, incase you need to go offline for some time. 
+
+How would you collaborate without using Git or Github? what would be easier, and what would be harder?
+
+I could use a cloud service such as google docs, it would be easier in the case of that the collaboration on a small project involving collaborating on text. otherwise in the case that the collaboration is done on more complex projects involving code, it would be harder to track changes, merge different versions of the codes and so on. 
