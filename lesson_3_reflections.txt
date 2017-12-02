@@ -17,3 +17,10 @@ This will help in the cases where there are different commits done locally and o
 How would you collaborate without using Git or Github? what would be easier, and what would be harder?
 
 I could use a cloud service such as google docs, it would be easier in the case of that the collaboration on a small project involving collaborating on text. otherwise in the case that the collaboration is done on more complex projects involving code, it would be harder to track changes, merge different versions of the codes and so on. 
+
+When would you want to make changes in a separate branch rather than directly in master? what benefits does each approach have?
+
+When you want to keep the master branch up-to-date with the master in the original repository, and only merge changes from the branch to the branch only when the feature or the aspect you are working on is ready. it is easier in terms of the steps to be taken to make all changes directly in master, however for clarity and keeping files up to date, accessable and organized it is better to make changes in a seperate branch rather than directly in master.  
+
+
+
